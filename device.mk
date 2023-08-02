@@ -35,3 +35,4 @@ TARGET_SCREEN_WIDTH := 1080
 # Ramdisk
 PRODUCT_PACKAGES += \
     fstab.qcom
+    init.device.rc
