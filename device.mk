@@ -24,6 +24,8 @@
 # Inherit proprietary files
 $(call inherit-product, vendor/xiaomi/nitrogen/nitrogen-vendor.mk)
 
+DEVICE_PATH := device/xiaomi/nitrogen
+
 # Device uses high-density artwork where available
 PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREF_CONFIG := xxhdpi
