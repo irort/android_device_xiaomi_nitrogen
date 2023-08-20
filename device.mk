@@ -65,6 +65,9 @@ PRODUCT_COPY_FILES += \
 DEVICE_PACKAGE_OVERLAYS += \
     $(DEVICE_PATH)/overlay
 
+PRODUCT_PACKAGES += \
+    NoCutoutOverlay
+
 # Init
 PRODUCT_PACKAGES += \
     init.class_main.sh \
