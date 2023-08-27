@@ -539,3 +539,15 @@ vendor/lib64/com.fingerprints.extension@1.0.so
 vendor/lib64/libgf_ca.so
 vendor/lib64/libgf_hal.so
 vendor/lib64/vendor.goodix.hardware.fingerprintextension@1.0.so
+
+# Gatekeeper
+vendor/bin/hw/android.hardware.gatekeeper@1.0-service-qti
+vendor/lib/hw/android.hardware.gatekeeper@1.0-impl-qti.so
+vendor/lib64/hw/android.hardware.gatekeeper@1.0-impl-qti.so
+vendor/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc
+
+# Keymaster QTI
+vendor/lib64/hw/android.hardware.keymaster@3.0-impl-qti.so
+vendor/lib/hw/android.hardware.keymaster@3.0-impl-qti.so
+vendor/etc/init/android.hardware.keymaster@3.0-service-qti.rc
+vendor/bin/hw/android.hardware.keymaster@3.0-service-qti
